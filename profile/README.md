@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Recipely-Team/recipely/main/assets/images/splash-icon.png" width="120" alt="Recipely" />
+<img src="https://raw.githubusercontent.com/Recipely-Team/.github/main/assets/logo-256.png" width="128" alt="Recipely Team logo" />
 
 # Recipely Team
 
