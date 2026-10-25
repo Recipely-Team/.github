@@ -1,44 +1,79 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Recipely-Team/recipely/main/assets/images/icon.png" width="96" alt="Recipely" />
+<img src="https://raw.githubusercontent.com/Recipely-Team/recipely/main/assets/images/splash-icon.png" width="120" alt="Recipely" />
 
 # Recipely Team
 
-**We build Recipely — talk, import, cook — and the open-source pieces behind it.**
+### Talk, import, cook. And the open-source pieces behind it.
 
-[Website](https://recipely.net) · [About](https://recipely.net/about) · [App Store](https://apps.apple.com/us/app/recipely/id6787391255) · [Google Play](https://play.google.com/store/apps/details?id=com.recipely.app)
+[![Website](https://img.shields.io/badge/recipely.net-2747d6?style=for-the-badge&logo=googlechrome&logoColor=white)](https://recipely.net)
+[![App Store](https://img.shields.io/badge/App%20Store-000000?style=for-the-badge&logo=apple&logoColor=white)](https://apps.apple.com/us/app/recipely/id6787391255)
+[![Google Play](https://img.shields.io/badge/Google%20Play-01875f?style=for-the-badge&logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=com.recipely.app)
 
 </div>
 
-## 📱 Apps
+<br/>
 
-| Project | What it is | Stack |
-|---|---|---|
-| [**recipely**](https://github.com/Recipely-Team/recipely) | The Recipely app for iOS, Android and the web, from one codebase | React Native · Expo · TypeScript |
+<table>
+<tr>
+<td width="50%" valign="top">
 
-## 📦 Libraries
+### 📱 [Recipely](https://github.com/Recipely-Team/recipely)
+![App](https://img.shields.io/badge/app-iOS%20·%20Android%20·%20Web-2747d6?style=flat-square)
 
-| Project | What it is | Install |
-|---|---|---|
-| [**live-assistant**](https://github.com/Recipely-Team/live-assistant) | A real-time voice assistant for React Native and the web, on Gemini Live: headless hooks, a drop-in widget and a token server | `npm i @live-assistant/core` |
+The recipe app: import from any video or site, write recipes with AI, cook with a voice assistant. One codebase, Clean Architecture.
 
-## 🧪 Tooling
+`React Native` `Expo` `TypeScript`
 
-| Project | What it is |
-|---|---|
-| [**recipely-tests**](https://github.com/Recipely-Team/recipely-tests) | End-to-end tests (Playwright and Maestro) that run against the live app |
+</td>
+<td width="50%" valign="top">
 
-The backend API runs from a private repository.
+### 🎙️ [Live Assistant](https://github.com/Recipely-Team/live-assistant)
+![Library](https://img.shields.io/badge/library-npm-cb3837?style=flat-square) ![npm](https://img.shields.io/npm/v/@live-assistant/core?style=flat-square&label=%40live-assistant%2Fcore)
+
+A real-time voice assistant for React Native and the web on Gemini Live: headless hooks, a drop-in widget and a token server.
+
+`npm i @live-assistant/core`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🧪 [Recipely Tests](https://github.com/Recipely-Team/recipely-tests)
+![Tooling](https://img.shields.io/badge/tooling-e2e-1d7a4c?style=flat-square)
+
+End-to-end tests against the live product: every backend service, the web app, device emulation and native flows.
+
+`Playwright` `Maestro`
+
+</td>
+<td width="50%" valign="top">
+
+### 🔒 Recipely API
+![Private](https://img.shields.io/badge/private-backend-5a6280?style=flat-square)
+
+The backend behind the apps: Clean Architecture and DDD on Node.js, Express, Prisma and PostgreSQL.
+
+`Node.js` `PostgreSQL`
+
+</td>
+</tr>
+</table>
 
 ## How we build
 
-- **Clean Architecture and DDD.** Layers depend one way, business rules have no framework in them, and the outside world sits behind interfaces.
-- **Machines check the rules.** Strict TypeScript, type-aware lint, structure checks and coverage minimums run on every commit.
-- **Every bug fix ships the test that would have caught it**, and a written record of the class of mistake.
-- **Security is layered.** TLS with pinned roots, a sealed request envelope, single-use refresh tokens and app attestation.
+<table>
+<tr>
+<td width="50%" valign="top"><b>🧱 Clean Architecture and DDD</b><br/>Layers depend one way; business rules carry no framework; the outside world sits behind interfaces.</td>
+<td width="50%" valign="top"><b>🤖 Rules checked by machines</b><br/>Strict TypeScript, type-aware lint, structure checks and coverage minimums on every commit.</td>
+</tr>
+<tr>
+<td width="50%" valign="top"><b>🧪 Every fix ships its test</b><br/>A regression test that fails without the fix, and a written record of the class of mistake.</td>
+<td width="50%" valign="top"><b>🛡️ Security in layers</b><br/>Pinned TLS, a sealed request envelope, single-use refresh tokens and app attestation.</td>
+</tr>
+</table>
 
-## Contributing and security
-
-Each repository has its own `README` and contribution notes. Please report vulnerabilities privately to **recep@recipely.net**, never in a public issue.
-
-<sub>The Recipely name, logo and store listings are trademarks; the code in each repository is under the licence stated there.</sub>
+<div align="center">
+<sub>Report a vulnerability privately to <b>recep@recipely.net</b>, never in a public issue. Each repository states its own licence; the Recipely name and logo are trademarks.</sub>
+</div>
