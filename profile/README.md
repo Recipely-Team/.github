@@ -59,6 +59,21 @@ The backend behind the apps: Clean Architecture and DDD on Node.js, Express, Pri
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🎸 [Airfret](https://github.com/Recipely-Team/airfret)
+![App](https://img.shields.io/badge/app-web-e0a458?style=flat-square) [![Play](https://img.shields.io/badge/play-airfret.vercel.app-161514?style=flat-square)](https://airfret.vercel.app)
+
+Play guitar, bass and drums in the air: the webcam tracks both hands, real recorded instruments sound every note, and lessons teach real songs at full tempo.
+
+`TypeScript` `MediaPipe` `Web Audio`
+
+</td>
+<td width="50%" valign="top">
+
+</td>
+</tr>
 </table>
 
 ## How we build
